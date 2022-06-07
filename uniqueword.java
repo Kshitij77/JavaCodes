@@ -13,7 +13,7 @@ class uniqueword {
         for(int i = 0;i<word.length();i++){
             char c = word.charAt(i);
             if(!character.add(c)){
-                //System.out.print(word + " doesn't have all unique chars");
+                //Hashset returns false if duplicate value is added and overwrites the value.
                 correct = false;
             }
         }

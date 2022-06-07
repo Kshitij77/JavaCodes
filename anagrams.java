@@ -18,6 +18,7 @@ class anagrams {
         String checksort = String.valueOf(checktemp);
         //String wordsort = String(wordtemp);
         //String checksort = String(checktemp);
+        //Java string equals method compare order wise thus we have to sort and then compare
         if(wordsort.equals(checksort)){
             System.out.println(word + " and " + check + " are anagrams");    
         }

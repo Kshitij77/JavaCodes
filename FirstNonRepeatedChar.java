@@ -16,6 +16,7 @@ public class FirstNonRepeatedChar {
         System.out.println("The first non repeated character in " + str + " is: " + getnonrepeated(str));
     }
     public static Character getnonrepeated(String str){
+        //The entries of a LinkedHashMap are in key insertion order, which is the order in which the keys are inserted in the Map
         Map<Character, Integer> charmap = new LinkedHashMap<Character, Integer>();
         for(int i = 0;i<str.length();i++){
             Character c = str.charAt(i);
